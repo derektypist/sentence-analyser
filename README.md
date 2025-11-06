@@ -39,4 +39,4 @@ Deployed on [GitHub Pages](https://derektypist.github.io/sentence-analyzer) at t
 
 ### Acknowledgements
 
-- [FreeCodeCamp](https://www.freecodecamp.org/learn/full-stack-developer/workshop-sentence-analyzer/)
+- [FreeCodeCamp](https://www.freecodecamp.org)
