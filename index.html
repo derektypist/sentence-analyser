@@ -1,17 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Derek Dhammaloka">
-    <meta name="description" content="Sentence Analyzer counts the number of vowels, consonants, punctuation characters and words">
+    <meta name="description"
+        content="Sentence Analyzer counts the number of vowels, consonants, punctuation characters and words">
     <title>Sentence Analyzer</title>
     <link href="favicon.ico" rel="icon">
     <!-- Load Styles -->
-     <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-     <link href="css/style.css" rel="stylesheet">
+    <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- Set Up Header -->
+    <header class="container-fluid text-center">
+        <h1>Sentence Analyzer</h1>
+    </header>
+
+    <!-- Set Up Form -->
+    <div class="container-fluid">
+        <form>
+            <div class="form-floating mb-3">
+                <input id="mysentence" class="form-control" type="text" placeholder="Enter Sentence"
+                    title="Enter Sentence">
+                <label for="mysentence">Sentence</label>
+            </div>
+
+            <div class="d-grid gap-2 d-flex justify-content-center">
+                <button id="clearBtn" class="btn btn-warning" type="reset">Clear</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Display Results -->
+    <div id="results" class="container-fluid"></div>
+
+    <!-- Load Scripts -->
+    <script src="libs/jquery/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
