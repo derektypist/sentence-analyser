@@ -1,0 +1,16 @@
+/* Set Up and Apply Fonts */
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: Roboto, Arial, Verdana, sans-serif;
+    padding: 1rem;
+}
+
+/* Style for id of results */
+#results {
+    font-size: 1.5rem;
+}
