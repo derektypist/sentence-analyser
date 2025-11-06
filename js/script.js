@@ -40,3 +40,24 @@ function getWordCount(sentence) {
     const words = sentence.trim().split(/\s+/);
     return words.length;
 }
+
+// Apply keyup event to id of mysentence
+$('#mysentence').on('keyup', function () {
+    $('#results').html(``);
+
+    const sentence = $('#mysentence').val();
+    if (sentence.trim().length == 0) {
+        $('#results').html(``);
+    } else {
+        $('#results').append(`Sentence: ${sentence} <br>`);
+        $('#results').append(`Vowel Count: ${getVowelCount(sentence)} <br>`);
+        $('#results').append(`Consonant Count: ${getConsonantCount(sentence)} <br>`);
+        $('#results').append(`Punctuation Count: ${getPunctuationCount(sentence)} <br>`);
+        $('#results').append(`Word Count: ${getWordCount(sentence)} <br>`);
+    }
+});
+
+// Apply click event to id of clearBtn
+$('#clearBtn').on('click', function () {
+    $('#results').html(``);
+});
