@@ -27,9 +27,21 @@ Uses HTML5, CSS3, JavaScript, jQuery 3.7.1 and Bootstrap 5.3.2.
 
 ## Testing
 
-Use the command `python3 -m http.server` and press `Enter`.
+Use the command `python3 -m http.server` and press `Enter` to preview.
 
-Once the project is deployed, 
+**Validator Testing**
+
+- HTML
+
+    - No errors were found through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fderektypist.github.io%2Fsentence-analyzer%2Findex.html)
+
+- CSS
+
+    - No errors were found through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fderektypist.github.io%2Fsentence-analyzer%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+- Link Checker
+
+    - A report is available through the official [W3C Link Checker](https://validator.w3.org/checklink?uri=https%3A%2F%2Fderektypist.github.io%2Fsentence-analyzer&hide_type=all&depth=&check=Check)
 
 ## Deployment
 
